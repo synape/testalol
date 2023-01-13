@@ -751,7 +751,7 @@ local ontp = game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(
     if State == Enum.TeleportState.Started then
 		local stringtp = [[
         repeat wait() until game:IsLoaded()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Mastadawn/Future/main/Initiate.lua", true))() 
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/synape/testalol/main/Initiate.lua", true))() 
         end
         ]]
 		queueteleport(stringtp)
